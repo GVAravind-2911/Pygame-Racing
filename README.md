@@ -1,2 +1,2 @@
 # Pygame-Racing
-Pygame Racing Game
+In Development. A Racing Game Using Pygame
