@@ -1,0 +1,20 @@
+#stack where data and functions are stored one top of another
+#local namespace>enclosing>global>built in functions
+#the values bring passed through function call are called actual parameters
+#the values received in the func definition is called formal parameters
+#keyword arguments are named arguments wsith assigned values being passed in the function call statement
+#a void function returns none value
+#the contrl flow refers to the order in which statements are executed during a program run
+#the default value for a parameter is defined in a function header
+#non default arguments should be before default arguments
+#function variables are same as local variables
+def incr(n):
+    n.append([49])
+    return n[0],n[1],n[2],n[3]
+l=[23,35,47]
+m1,m2,m3,m4=incr(l)
+print(l)
+print(m1,m2,m3,m4)
+print(l[3]==m4)
+
+when list is sent to function, that list gets modified
